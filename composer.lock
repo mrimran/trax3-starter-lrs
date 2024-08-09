@@ -6043,12 +6043,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/trax-project/trax3-core.git",
-                "reference": "a961dc62b6f53951e9b9d86ba34aaab0b8cbfa2b"
+                "reference": "bf56e76a407df6977f2b323e38961381c5716831"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trax-project/trax3-core/zipball/a961dc62b6f53951e9b9d86ba34aaab0b8cbfa2b",
-                "reference": "a961dc62b6f53951e9b9d86ba34aaab0b8cbfa2b",
+                "url": "https://api.github.com/repos/trax-project/trax3-core/zipball/bf56e76a407df6977f2b323e38961381c5716831",
+                "reference": "bf56e76a407df6977f2b323e38961381c5716831",
                 "shasum": ""
             },
             "type": "library",
@@ -6087,7 +6087,7 @@
                 "issues": "https://github.com/trax-project/trax3-core/issues",
                 "source": "https://github.com/trax-project/trax3-core/tree/v3.0.0-rc1"
             },
-            "time": "2024-08-09T09:17:10+00:00"
+            "time": "2024-08-09T15:15:05+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

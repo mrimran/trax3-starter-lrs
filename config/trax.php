@@ -2,7 +2,9 @@
 
 return [
 
-    'release' => '3.0.0-rc1',
+    'app' => [
+        'release' => '3.0.0-rc1',
+    ],
 
     'services' => [
 
