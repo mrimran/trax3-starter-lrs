@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12a5bbdf007bc2817c79443149159b4c",
+    "content-hash": "2415573ea80e1a64cbbb9cbdb5b96814",
     "packages": [
         {
             "name": "brick/math",
@@ -6039,16 +6039,16 @@
         },
         {
             "name": "trax3/core",
-            "version": "v3.0.0-rc1",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trax-project/trax3-core.git",
-                "reference": "bf56e76a407df6977f2b323e38961381c5716831"
+                "reference": "32363a40523a820ff05f2a78ca7daf5ac6085039"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trax-project/trax3-core/zipball/bf56e76a407df6977f2b323e38961381c5716831",
-                "reference": "bf56e76a407df6977f2b323e38961381c5716831",
+                "url": "https://api.github.com/repos/trax-project/trax3-core/zipball/32363a40523a820ff05f2a78ca7daf5ac6085039",
+                "reference": "32363a40523a820ff05f2a78ca7daf5ac6085039",
                 "shasum": ""
             },
             "type": "library",
@@ -6061,8 +6061,15 @@
                     "Trax\\Framework\\": "framework/src/",
                     "Trax\\Activities\\": "activities/src/",
                     "Trax\\Statements\\": "statements/src/",
+                    "Trax\\Agents\\Tests\\": "agents/tests/",
+                    "Trax\\States\\Tests\\": "states/tests/",
                     "Trax\\AgentProfiles\\": "agent-profiles/src/",
-                    "Trax\\ActivityProfiles\\": "activity-profiles/src/"
+                    "Trax\\Framework\\Tests\\": "framework/tests/",
+                    "Trax\\Activities\\Tests\\": "activities/tests/",
+                    "Trax\\ActivityProfiles\\": "activity-profiles/src/",
+                    "Trax\\Statements\\Tests\\": "statements/tests/",
+                    "Trax\\AgentProfiles\\Tests\\": "agent-profiles/tests/",
+                    "Trax\\ActivityProfiles\\Tests\\": "activity-profiles/tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6085,9 +6092,9 @@
             ],
             "support": {
                 "issues": "https://github.com/trax-project/trax3-core/issues",
-                "source": "https://github.com/trax-project/trax3-core/tree/v3.0.0-rc1"
+                "source": "https://github.com/trax-project/trax3-core/tree/v3.0.0"
             },
-            "time": "2024-08-09T15:15:05+00:00"
+            "time": "2024-11-08T19:16:16+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -8821,9 +8828,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "trax3/core": 5
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
