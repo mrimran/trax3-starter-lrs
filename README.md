@@ -43,7 +43,7 @@ memory_limit = 1024M
 
 ### Database
 
--   MySQL 8.0.17 to 8.3
+-   MySQL 8.0.17 to 8.4
 -   PostgreSQL 13 to 16
 
 ### Utilities
