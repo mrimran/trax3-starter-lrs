@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2415573ea80e1a64cbbb9cbdb5b96814",
+    "content-hash": "014269455c03abe57dfe703fd8f161db",
     "packages": [
         {
             "name": "brick/math",
@@ -6039,16 +6039,16 @@
         },
         {
             "name": "trax3/core",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trax-project/trax3-core.git",
-                "reference": "32363a40523a820ff05f2a78ca7daf5ac6085039"
+                "reference": "b17546d3ee0da917d0c8d2bde771ced18c555e70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trax-project/trax3-core/zipball/32363a40523a820ff05f2a78ca7daf5ac6085039",
-                "reference": "32363a40523a820ff05f2a78ca7daf5ac6085039",
+                "url": "https://api.github.com/repos/trax-project/trax3-core/zipball/b17546d3ee0da917d0c8d2bde771ced18c555e70",
+                "reference": "b17546d3ee0da917d0c8d2bde771ced18c555e70",
                 "shasum": ""
             },
             "type": "library",
@@ -6092,9 +6092,9 @@
             ],
             "support": {
                 "issues": "https://github.com/trax-project/trax3-core/issues",
-                "source": "https://github.com/trax-project/trax3-core/tree/v3.0.0"
+                "source": "https://github.com/trax-project/trax3-core/tree/v3.0.1"
             },
-            "time": "2024-11-08T19:16:16+00:00"
+            "time": "2024-11-13T17:37:29+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

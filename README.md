@@ -172,6 +172,17 @@ php artisan config:clear
 ```
 
 
+## Minor updates
+
+Minor versions (3.0.x) can be updated with:
+
+```shell
+git pull origin master      # Update the application from Github
+composer install            # Update the PHP dependencies, including TRAX Core
+```
+
+
+
 ## Known issues
 
 ### SQLSTATE[42000]: Syntax error or access violation: 1071
