@@ -135,19 +135,24 @@ php artisan database:install
 
 ### Admin Account
 
-The admin account has the following credentials:
+The admin account has the default following credentials:
 
 -   Email: `admin@traxlrs.com`
 -   Password: `aaaaaaaa`
+
+You can define your own credentials in the `.env` file with the `ADMIN_EMAIL` and `ADMIN_PASSWORD` environment variables.
+
 
 ### xAPI endpoint
 
 Assuming that TRAX LRS is hosted at `http://trax3.test`, the xAPI endpoint is `http://trax3.test/trax/api/gateway/clients/default/stores/default/xapi`.
 
-The BasicHTTP credentials are:
+The default Basic HTTP credentials are:
 
 -   Username: `traxlrs`
 -   Password: `aaaaaaaa`
+
+You can define your own credentials in the `.env` file with the `DEFAULT_ENDPOINT_USERNAME` and `DEFAULT_ENDPOINT_PASSWORD` environment variables.
 
 
 ## Production deploy
@@ -193,10 +198,11 @@ If you get this error during the `php artisan database:install` command, check y
 
 TRAX LRS has a `/public/.htaccess` file with some Apache directives.
 When these directives are ignored by Apache, this leads to a 404 error.
-In this case, check the `httpd.conf` file of Apache and try to set the `AllowOverride` option to `All`:
+In this case, check the `httpd.conf` file of Apache and try to set the following options:
 
 ```xml
 <Directory "path-to-traxlrs/public">
+    Require all granted
     Allowoverride All
 </Directory>
 ```
