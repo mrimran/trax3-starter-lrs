@@ -85,13 +85,13 @@ return [
     'auth' => [
 
         'admin' => [
-            'email' => env('ADMIN_EMAIL', 'admin@traxlrs.com'),
-            'password' => env('ADMIN_PASSWORD', 'aaaaaaaa'),
+            'email' => env('ADMIN_EMAIL'),
+            'password' => env('ADMIN_PASSWORD'),
         ],
 
         'endpoint' => [
             'username' => env('DEFAULT_ENDPOINT_USERNAME', 'traxlrs'),
-            'password' => env('DEFAULT_ENDPOINT_PASSWORD', 'aaaaaaaa'),
+            'password' => env('DEFAULT_ENDPOINT_PASSWORD'),
         ],
     ],
 
@@ -106,7 +106,7 @@ return [
         'logging-api' => env('LOGGING_API', false),
         'access-api' => env('ACCESS_API', false),
     ],
-    
+
     'xapi' => [
 
         // The default limit when getting statements.
@@ -119,7 +119,7 @@ return [
                 'homePage' => env('XAPI_STATEMENTS_AUTHORITY_HOMEPAGE', 'http://traxlrs.com'),
             ]
         ],
-        
+
         // Pseudonymization options.
         'pseudo' => [
             'homepage' => env('XAPI_PSEUDO_HOMEPAGE', 'http://pseudo.traxlrs.com'),
