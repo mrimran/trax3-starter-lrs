@@ -123,7 +123,7 @@ return [
         // Pseudonymization options.
         'pseudo' => [
             'homepage' => env('XAPI_PSEUDO_HOMEPAGE', 'http://pseudo.traxlrs.com'),
-            'hash_key' => env('XAPI_PSEUDO_HASH_KEY', 'Oh4JYEcohtoaZmS3oBb4d'),
+            'hash_key' => env('XAPI_PSEUDO_HASH_KEY'),
         ],
 
         // About information.
